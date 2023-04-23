@@ -42,7 +42,7 @@ int main(void){
     const ll digit=10;
 
     ifstream npfilest;
-    string npfilename = "npnum.txt";
+    string npfilename = "../npnum.txt";
     npfilest.open(npfilename, ios::in);
     string npfileread;
     getline(npfilest, npfileread);

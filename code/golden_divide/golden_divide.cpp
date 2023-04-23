@@ -42,7 +42,7 @@ int main(void){
     const ll digit=10;
 
     ifstream npfilest;
-    string npfilename = "npnum.txt";
+    string npfilename = "../npnum.txt";
     npfilest.open(npfilename, ios::in);
     string npfileread;
     getline(npfilest, npfileread);
@@ -51,7 +51,7 @@ int main(void){
     Real epsl=pow((Real)10,(Real)-digit);
 
     ifstream glfilest;
-    string glfilename = "golden_ratio.txt";
+    string glfilename = "../golden_ratio.txt";
     glfilest.open(glfilename, ios::in);
     string glfileread;
     getline(glfilest, glfileread);
