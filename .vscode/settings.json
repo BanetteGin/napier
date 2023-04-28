@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.anm": "lua",
+        "*.obj": "lua",
+        "random": "cpp"
+    }
+}
